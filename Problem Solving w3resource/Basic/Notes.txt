@@ -51,4 +51,26 @@ if(UserInt > 0)
 }
 
 
+/*
+38. Extract 'PH' from String
+*/
+ string St1 = "";
+ Console.WriteLine("Enter a string : ");
+ St1 = Console.ReadLine();
+
+ for(int i = 0; i < St1.Length - 1; i++)
+ {
+     if ((St1[i] + "" + St1[i + 1]) == "PH")
+     {
+         Console.WriteLine(St1[i] + "" + St1[i + 1]);
+         Console.WriteLine("First letter posstion : {0} and the Second letter postion is {1}",i, i + 1);
+     }
+ }
+/*
+39. Largest and Lowest of Three Integers
+*/
+ Console.WriteLine("Largest of three {0}", Math.Max(Number1,Math.Max(Number2,Number3)));
+ Console.WriteLine("Lowest of three {0}", Math.Min(Number1,Math.Min(Number2,Number3)));
+
+
 
