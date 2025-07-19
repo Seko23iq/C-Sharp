@@ -36,3 +36,19 @@ Console.WriteLine(Convert);
 */
 
 UserString.Substring(UserString.Length - 4)
+
+
+/*
+33. Check Multiple of 3 or 7
+*/
+int UserInt = 0;
+Console.WriteLine("Enter a number : ");
+UserInt = Convert.ToInt32(Console.ReadLine());
+
+if(UserInt > 0)
+{
+    Console.WriteLine(UserInt % 3 == 0 || UserInt % 7 == 0);
+}
+
+
+
