@@ -30,3 +30,9 @@ Console.WriteLine(Convert);
  {
      Console.WriteLine(MultiArr1_Arr2[i]);
  }
+
+/*
+32. Get SubString Form String
+*/
+
+UserString.Substring(UserString.Length - 4)
