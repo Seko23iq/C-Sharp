@@ -1,1 +1,32 @@
+/*
+29. File Size in Bytes
+*/
 
+// Creating a FileInfo object representing a file at the specified path
+FileInfo f = new FileInfo("/home/students/abc.txt");
+// Displaying the size of the file in bytes using FileInfo's Length property
+Console.WriteLine("\nSize of a file: " + f.Length.ToString());
+
+/*
+30.Hexadecimal to Decimal
+*/
+int Convert = int.Parse("4B0", System.Globalization.NumberStyles.HexNumber);
+Console.WriteLine(Convert);
+
+/*
+31. Multiply Two Arrays
+*/
+
+ int[] arr1 = { 1, 3, -5, 4 };
+ int[] arr2 = { 1, 4, -5, -2 };
+ int[] MultiArr1_Arr2 = {0,0,0,0 };
+
+ for(int i = 0; i <= 3; i++)
+ {
+     MultiArr1_Arr2[i] = arr1[i] * arr2[i];
+ }
+
+ for (int i = 0; i <= 3; i++)
+ {
+     Console.WriteLine(MultiArr1_Arr2[i]);
+ }
